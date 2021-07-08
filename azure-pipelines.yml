@@ -5,7 +5,7 @@ variables:
   leaderboardRepository: 'leaderboard'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'Tailspin'
+  imagePullSecret: 'secret'
 
 stages:
 - stage: 'Build'
